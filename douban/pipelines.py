@@ -11,6 +11,8 @@ from scrapy.conf import settings
 
 class DoubanPipeline(object):
 
+
+
     def __init__(self):
         print "__init_______________"
         host = settings["MONGODB_HOST"]
